@@ -1,0 +1,3 @@
+- The function follows the syntax: `func <function_name>(param1 <param1_type>, param2 <param2_type>) <return_type>{}`
+- Optionally, you can mention all the similar type params together and then declare their type like : `func add(x,y int)`, but this is not recommended as it can reduce readability
+- If you want the returned member variables of the function to be initialized at the beginning, you can specify their names in the declaration like so: `func add(x int, y int) (x int,y int)`. This will initialize the variables x and y to 0. If this is done, there is no need to explicitly return x and y. It will automatically be returned if you mention `return` within the function body. **But It is not recommended**
